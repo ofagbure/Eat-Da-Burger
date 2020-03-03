@@ -1,4 +1,4 @@
-# Eat-Da-Burger
+# Eat-Da-Burger! App
 An application that keeps track of burgers that user inputs.
 
 ## Table of Contents 
