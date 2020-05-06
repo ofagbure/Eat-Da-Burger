@@ -4,7 +4,7 @@ var exphbs  = require('express-handlebars');
  
 var app = express();
 const port = process.env.PORT || 3000
-app.use(express.static("public"));
+app.use(express.static("/public"));
  
 app.engine('handlebars', exphbs());
 app.set('view engine', 'handlebars');
