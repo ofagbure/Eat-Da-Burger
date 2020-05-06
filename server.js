@@ -13,4 +13,6 @@ app.get('/', function (req, res) {
     res.render('index');
 });
 
-console.log("connection established!");
+app.listen(port, function () {
+    console.log(`Listening on PORT: ${port}`)
+});
